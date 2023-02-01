@@ -4,7 +4,6 @@ body{
 
 header{
     font-size: 30px;
-    margin-left: 40%;
 }
 
 section{
@@ -18,7 +17,7 @@ section{
 input {
     border-radius: 10px;
     border-radius: 10px;
-    border: 1px solid #000000;
+    border: 1px solid grey;
     padding: 0 4px 0 4px;
 }
 
@@ -39,4 +38,15 @@ input.enviar{
     height: 35px;
     font-size: 17px;
     border-color: white;
+}
+
+input.form2{
+    width: 200px;
+    height: 38px;
+    font-size: 17px;
+    margin-left: 44%;
+}
+
+input.hola{
+    width: 1600px;
 }

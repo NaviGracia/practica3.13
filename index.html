@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Accede a tu Área Clientes</header>
     <section>
+        <header>Accede a tu Área Clientes</header>
         <form action="pagina.php">
         <p class="documento">Elige tu documento
             <br>
@@ -41,6 +41,28 @@
         </form>
     </section>
     <hr>
+    <section>
+        <header>Empieza Creando un Usuario</header>
+        <form action="pagina.php">
+            <input type="text" class="texto_documento" placeholder="Nombre (como sale en el DNI)">
+            <br>
+            <input type="text" class="hola" placeholder="1º apellido (como sale en el DNI)">
+            <input type="text" class="form2" placeholder="2º apellido (como sale en el DNI)">
+            <br>
+                <strong>TIPO DE DOCUMENTO</strong>
+                <br>
+                <select class="form" name="tipo_documento">
+                    <option selected>Elija una Opción</option>
+                    <option>DNI</option>
+                    <option>NIF</option>
+                    <option>CERT. AEAT</option>
+                </select>
+            <input type="text" class="form2" placeholder="Nº de Documento">
+            <br>
+            <input type="text" class="form" placeholder="Móvil">
+            <input type="text" class="form2" placeholder="Email">
+        </form>
+    </section>
 
 </body>
 </html>
