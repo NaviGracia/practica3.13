@@ -40,13 +40,20 @@ input.enviar{
     border-color: white;
 }
 
-input.form2{
-    width: 200px;
+input.form1{
+    width: 600px;
     height: 38px;
-    font-size: 17px;
-    margin-left: 44%;
+    font-size: 15px;
+}
+
+input.form2{
+    width: 180px;
+    height: 38px;
+    font-size: 12px;
+    margin-left: 2.5%;
 }
 
 input.hola{
-    width: 1600px;
+    width: 180px;
+    height: 38px;
 }
